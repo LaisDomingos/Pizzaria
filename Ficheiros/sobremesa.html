@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link REL="SHORTCUT ICON" HREF="../imagens/favicon.ico">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../scripts/animate.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Pizzaria da Beira</title>
+</head>
+<script>
+    function myFunction() {
+        alert("O item foi adicionado ao carrinho!");
+    }
+</script>
+<body>
+    <div id='barra_inicial'>
+        <a href="../index.html"><img src="../imagens/ex.png" alt="Pizzaria da Beira/Logo" class="logotipo"></a>
+        <h1 class="title">Pizzaria da Beira</h1>
+        <a class='link' href="#"><i class="material-icons" style="font-size:55px">shopping_cart</i></a>
+        <a class='link' href="login.php"><i class="material-icons" style="font-size:55px">person</i></a>
+        
+    </div>
+    <nav id="navega" >
+        <a class='link' href="promocoes.html">Promoções</a>
+        <a class='link' href="menus.html">Menus</a>
+        <div class="pizza">
+          <a class='link' id="menu_pizza" href="pizza.html">Pizzas</a>
+          <div class="pizza-menu">
+            <a href="pizza.html#classico">Clássicos</a>
+            <a href="pizza.html#vegana">Veganas</a>
+          </div>
+        </div>
+        <div class="pizza">
+          <a class='link' href="entrada.html">Entradas</a>
+          <div class="pizza-menu">
+            <a href="entrada.html#pizzolinos">Pizzolinos</a>
+            <a href="entrada.html#alho">Pão de Alho</a>
+          </div>
+        </div>
+        <div class="pizza">
+          <a class='link' href="bebida.html">Bebidas</a>
+          <div class="pizza-menu">
+            <a href="bebida.html#33cl">Refrigerantes 33cl</a>
+            <a href="bebida.html#1L">Refrigerantes 1,5Lt</a>
+          </div>
+      </div>
+      <div class="pizza">
+        <a class='link' href="sobremesa.html">Sobremesas</a>
+        <div class="pizza-menu">
+          <a href="#natas">Pastéis de Nata</a>
+          <a href="#mousse">Mousses</a>
+          <a href="#gelados">Gelados</a>
+        </div>
+      </div>
+      <a class='link' href="https://www.instagram.com/pizzariabeiraubi/">Contatos</a>
+    </nav>
+    <div id="principal">
+        <div id="natas">
+        <h2 class="title_div">Pastéis de Nata</h2>
+        <table id="menu">
+            <tr>
+                <td class="menutd">
+                    <h3 class="menutitle">Pastel de Nata (2Un)</h3>
+                    <table>
+                        <tr>
+                            <div id="div27">
+                                <img  src="../Imagens/Sobremesas/nata2.png">
+                                <button type="button" id="fechar" data-person="#natad">X</button>
+                            </div>
+                            <td><h3 class="preco">2,20€</h3></td>
+                            <td class="space"><button type="button" class="ver" data-person="#natad">Ver+</button></td>
+                    </tr>
+                    </table>
+                    <input type="submit" id="botao" value="Pedir" onclick="myFunction()">
+                </td>
+                <td class="menutd">
+                    <h3 class="menutitle">Pastel de Nata (1Un)</h3>
+                    <table>
+                        <tr>
+                            <div id="div28">
+                                <img  src="../Imagens/Sobremesas/nata1.png">
+                                <button type="button" id="fechar" data-person="#natau">X</button>
+                            </div>
+                            <td><h3 class="preco">1,35€</h3></td>
+                            <td class="space"><button type="button" class="ver" data-person="#natau">Ver+</button></td>
+                        </tr>
+                    </table>
+                    <input type="submit" id="botao" value="Pedir" onclick="myFunction()">
+                </td>
+            </tr>
+        </table>
+        </div>
+        <div id="mousse">
+            <h2 class="title_div">Mousses</h2>
+            <table id="menu">
+                <tr>
+                    <td class="menutd">
+                        <h3 class="menutitle">Mouse de Chocolate</h3>
+                        <table>
+                            <tr>
+                                <div id="div29">
+                                    <img  src="../Imagens/Sobremesas/choc.jpg">
+                                    <button type="button" id="fechar" data-person="#choc">X</button>
+                                </div>
+                                <td><h3 class="preco">1,95€</h3></td>
+                                <td class="space"><button type="button" class="ver" data-person="#choc">Ver+</button></td>
+                        </tr>
+                        </table>
+                        <input type="submit" id="botao" value="Pedir" onclick="myFunction()">
+                    </td>
+                    <td class="menutd">
+                        <h3 class="menutitle">Mousse de Maracujá</h3>
+                        <table>
+                            <tr>
+                                <div id="div30">
+                                    <img  src="../Imagens/Sobremesas/mara.png">
+                                    <button type="button" id="fechar" data-person="#mara">X</button>
+                                </div>
+                                <td><h3 class="preco">1,95€</h3></td>
+                                <td class="space"><button type="button" class="ver" data-person="#mara">Ver+</button></td>
+                            </tr>
+                        </table>
+                        <input type="submit" id="botao" value="Pedir" onclick="myFunction()">
+                    </td>
+                </tr>
+            </table>
+            </div>
+            <div id="gelados">
+                <h2 class="title_div">Gelados</h2>
+                <table id="menu">
+                    <tr>
+                        <td class="menutd">
+                            <h3 class="menutitle">Magnum Classic 440ml</h3>
+                            <table>
+                                <tr>
+                                    <div id="div31">
+                                        <img  src="../Imagens/Sobremesas/mag_clas.png">
+                                        <button type="button" id="fechar" data-person="#clas">X</button>
+                                    </div>
+                                    <td><h3 class="preco">3,79€</h3></td>
+                                    <td class="space"><button type="button" class="ver" data-person="#clas">Ver+</button></td>
+                            </tr>
+                            </table>
+                            <input type="submit" id="botao" value="Pedir" onclick="myFunction()">
+                        </td>
+                        <td class="menutd">
+                            <h3 class="menutitle">Magnum Branco 440ml</h3>
+                            <table>
+                                <tr>
+                                    <div id="div32">
+                                        <img  src="../Imagens/Sobremesas/mag_bra.jpg">
+                                        <button type="button" id="fechar" data-person="#bra">X</button>
+                                    </div>
+                                    <td><h3 class="preco">3,79€</h3></td>
+                                    <td class="space"><button type="button" class="ver" data-person="#bra">Ver+</button></td>
+                                </tr>
+                            </table>
+                            <input type="submit" id="botao" value="Pedir" onclick="myFunction()">
+                        </td>
+                    </tr>
+                </table>
+                </div>
+                <button onclick="window.print()" id="botao" >Imprimir Menu</button>
+    </div>
+    <div id="secundario">
+        <h1 class="lado">Pedidos especiais</h1>
+        <div id="textprom">
+        <p class="text_sec"><b>Se tem interesse em solicitar um pedido especial que não esteja no nosso menu ou em nosso site, pode entrar em contato pelo:</p>
+        <p class="num">+351 999999999</p>
+        <p class="text_sec">Nosso intuito é ajudar, então se tiver ao nosso alcance, faremos o melhor</b></p>
+        </div>
+    </div>
+    <footer id="rodape">
+        <h4>Pizzaria da Beira © 2022</h4>
+    </footer>
+</body>
+</html>

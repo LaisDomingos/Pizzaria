@@ -1,0 +1,280 @@
+#barra_inicial{
+    background-color: red;
+    height: 90px;
+    
+}
+.logotipo{
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+    padding: 5px;
+    float: left;
+}
+.material-icons{
+    font-size:55px;
+    color:white;
+    float: right;
+    padding-top: 12px;
+}
+.title{
+    float: left;   
+    color: white;
+    font-style: italic;
+    
+}
+
+
+
+#rodape{
+    background-color: red;
+    font-size:20px;
+    text-align: center;
+    color: white; 
+    font-style: italic;   
+}
+.banner{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 80%;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+#promocoes{
+    margin-left:auto;
+    margin-right: auto;
+}
+.td2{
+    text-align: center;
+    font-family: Garamond, serif;
+    
+}
+.link_prom{
+   text-decoration: none;
+   font-size:18px; 
+   padding-top: 5px;
+   padding-bottom: 5px;
+   color: white;
+}
+.link_prom:hover{
+    color: Gainsboro;
+    text-decoration: underline;
+}
+p{
+    font-family: Garamond, serif;
+}
+/*Login*/
+#botao{
+    margin-top: 15px;
+    padding: 10px;
+    color: white;
+    background-color: red;
+}
+.login{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.registro{
+    padding-left: 150px ;
+    padding-right: 150px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+#login{
+    margin: auto;
+}
+
+input{
+    width: 300px;
+    padding: 10px;
+}
+/*menu*/
+.menutitle{
+    font-family: Garamond, serif;
+    font-size: 25px;
+    color: black;
+    font-style: oblique;
+}
+.menutd{
+    border-style: dotted;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+
+.preco{
+    color: DimGray;
+    font-family: Garamond, serif;
+}
+#menu{
+    padding-top: 1px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+#menu1{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+#secundario {
+    width: 29%;
+    float: right;
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
+    margin-left: 0;
+    margin-right: 25px;
+    padding-bottom: 15px;
+    padding-top: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+#principal {
+    padding-left: 0.5em;
+    float: left;  
+    width: 65%;
+    margin-left: 25px;
+}
+#barra_incial, #navega, #rodape{
+    clear: both;
+}
+.title_div{
+    color: DimGray;
+    font-style: oblique;
+}
+.lado{
+    color:red;
+    font-style: italic;
+    text-align: center;
+    background-color: beige;
+}
+.text_sec{
+    color: DimGray;
+    font-family: Garamond, serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.num{
+    color: blue;
+    padding-left: 15px;
+    
+}
+/*Promoções*/
+.precopromo{
+    color: red;
+    font-size: 30x;
+}
+
+
+/*bebidas*/
+#textprom{
+    display: none;
+}
+.space{
+    padding-left: 200px;
+}
+.space1{
+    padding-left: 130px;
+}
+.space2{
+    padding-left: 120px;
+}
+.space3{
+    padding-left: 70px;
+}
+.space4{
+    padding-left: 190px;
+}
+.space5{
+    padding-left: 150px;
+}
+.space6{
+    padding-left: 210px;
+}
+
+#div1, #div2, #div3, #div4, #div5, #div6, #div7, #div8, #div9, #div10,#div11, #div12, #div13, #div14, #div15,
+#div16, #div17, #div18, #div19, #div20, #div21, #div22, #div23, #div24, #div25, #div26, #div27, #div28, #div29,
+#div30, #div31, #div32{
+    display:none;
+}
+
+/*Navegação*/
+#navega{
+    background-color: DimGray;
+    font-size:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Garamond, serif;
+    overflow: hidden;
+    padding-left: 350px;
+}
+.pizza {
+    float: left;
+    overflow: hidden;
+    
+  }
+.pizza-menu {
+    display: none;
+    position: absolute;
+    background-color: DarkGray;
+    min-width: 160px;
+  }
+  
+.pizza-menu a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.pizza-menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.pizza:hover .pizza-menu {
+    display: block;
+}
+
+.link{ 
+    text-decoration: none;
+    padding: 18px;
+    color: white;  
+     
+}
+.link:hover{
+    color: Gainsboro;
+    text-decoration: underline;
+}
+  
+#imprimir{
+    margin-top: auto;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    float: left;
+}
+.menuadmin{
+    border-style: groove;
+}
+.linkadmin{ 
+    text-decoration: underline;
+    padding: 7px;
+    color: DimGray;  
+    font-size:17px;
+     
+}
+.linkadmin:hover{
+    color: red;
+    text-decoration: underline;
+    font-size:17px;
+}
