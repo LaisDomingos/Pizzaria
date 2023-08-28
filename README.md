@@ -1,4 +1,4 @@
-![Captura de Tela (273)](https://github.com/LaisDomingos/Pizzaria/assets/50579591/28d44473-5dd0-48ec-90fa-cf75249efc46)# Pizzaria da Beira
+# Pizzaria da Beira
 
 Este projeto representa o trabalho final da disciplina de Composição Web em nossa jornada acadêmica. A **Pizzaria: Delícias Online** é um site imaginário para uma pizzaria, onde exploramos o desenvolvimento de uma plataforma de pedidos online. O projeto integra tecnologias como PHP para validação de login, jQuery para efeitos visuais e interativos, e uma prévia funcionalidade de adição ao carrinho.
 
